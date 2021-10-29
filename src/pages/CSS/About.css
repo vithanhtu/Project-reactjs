@@ -1,0 +1,141 @@
+.about-wrap {
+    width: 80vw;
+    height: auto;
+    margin: 10rem auto;
+    margin-bottom: 6rem;
+}
+.about-image {
+    width: 100%;
+}
+.about-image img{
+    width: 100%;
+    object-fit: cover;
+}
+.about-title {
+    margin: 0 auto;
+    width: 60%;
+}
+.about-title h2, .about-title p{
+    padding: 60px 0;
+    color: #2b2f3e;
+    font-size: 29px;
+    font-weight: 300;
+    line-height: 1.5em;
+    text-align: center;
+}
+.about-title p {
+    padding-bottom: 5%;
+    font-size: 24px;
+}
+.about-content {
+    margin: 0 auto;
+    width: 60%;
+    height: auto;
+}
+.about-content-title {
+    text-align: left;
+    padding: 40px 0;
+    color: #2b2f3e;
+    font-family: "Roboto", Sans-serif;
+    font-size: 29px;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+.about-content h3 {
+    padding: 0 40px 20px 0;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.4em;
+}
+.content-text {
+    padding: 20px 40px 20px 0;
+    text-align: left;
+    color: #767675;
+    font-family: "Roboto", Sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+.chef-contact {
+    margin: 30px 0;
+    padding: 40px 0;
+    width: 100%;
+    border-top: 1px solid #eeee;
+    border-bottom: 1px solid #eeee;
+}
+.chef-contact h2{
+    text-align: left;
+    font-size: 1.8rem;
+    padding-bottom: 18px;
+}
+.chef-contact p{
+    text-align: left;
+    padding: 8px 0;
+    color: #ec495e;
+}
+.chef-footer {
+    width: 100%;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+.chef-footer-text {
+    margin: 0 4px;
+    font-size: 1.6rem;
+}
+.chef-footer span {
+    color: #ec495e;
+}
+
+  
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .about-title {
+        width: 100%;
+    }
+    .about-title h2,
+    .about-title p {
+        padding-left: 20px;
+        padding-right: 30px;
+        font-size: 20px;
+    }
+    .about-title p {
+        font-size: 18px;
+    }
+    .about-content {
+        padding: 0 20px;
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .about-content {
+        padding: 0;
+    }
+    .chef-footer-text {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 467px) {
+    .about-wrap {
+        margin-bottom: 4rem;
+    }
+    .chef-footer-text {
+        padding: 4px 0;
+        font-size: 1.4rem;
+    }
+    .chef-footer {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+}
+  
+  

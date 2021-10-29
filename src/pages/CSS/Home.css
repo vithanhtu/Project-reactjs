@@ -1,0 +1,414 @@
+.home {
+    height: auto;
+    /* background-color: aquamarine; */
+    width: 100%;
+}
+.home-inner {
+    position: relative;
+    width: 100%;
+    height: 700px;
+}
+.home-inner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.home-inner-content {
+    z-index: 2;
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #f2f2f2;
+}
+.home-inner-content h1,h2 {
+    text-align: center;
+    padding: 6px 0;
+}
+.home-inner-content h1 {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 4rem;
+}
+.home-inner-content h2 {
+    font-family: "Satisfy", Sans-serif;
+    color: #e6be99;
+    font-size: 2.6rem;
+}
+.home-inner-content p {
+    text-align: center;
+    padding: 16px 0;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+.home-inner-content p:last-child {
+    font-weight: 400;
+}
+.home-inner--book-line {
+    display: flex;
+    justify-content: center;
+}
+.home-inner--book-line .book-btn {
+    cursor: pointer;
+    margin-top: 30px;
+    font-size: 1.1rem;
+    color: #f2f2f2;
+    padding: 14px 24px;
+    border-radius: 6px;
+    border: none;
+    background-color: #d42d44;
+}
+.home-inner--book-line .book-btn:hover {
+    background-color: #cf152e;
+}
+.home-inner--book-line .book-btn a{
+    font-size: 1.1rem;
+    color: #f2f2f2;
+    text-decoration: none;
+}
+.slide-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+    grid-template-rows: 560px;
+}
+.slide-item {
+    cursor: pointer;
+    position: relative;
+    color: #f2f2f2;
+}
+
+.slide-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.slide-item-content {
+    position: absolute;
+    padding: 0 20px;
+    top: 40%;
+    width: 100%;
+}
+.slide-item-content h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+.slide-item-content p{
+    line-height: 1.5;
+    padding-right: 40px;
+    text-align: center;
+    font-size: 1rem;
+}
+.slide-item-overlay {
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(236,73,94,0.63);
+}
+.slide-item:hover .slide-item-overlay{
+    display: block;
+}
+.home-about {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin: 40px auto;
+    border-top: 1px solid #f1eaea;
+    padding: 100px 0;
+}
+.home-about-content {
+    width: 80vw;
+    height: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.home-about-content-item{
+    margin: 0 auto;
+    width: 70%;
+    text-align: left;
+    color: #333;
+    line-height: 1.5;
+}
+.home-about-content-item h1{
+    font-size: 1.6rem;
+}
+.home-about-content-item p{
+    padding: 16px 0;
+    font-weight: 300;
+}
+.home-about-content-item h2{
+    font-size: 1.2rem;
+    text-align: left;
+}
+.home-about-content-item-text {
+    width: 60%;
+}
+.about-btn {
+    margin-top: 20px;
+}
+.about-btn a {
+    color: #cf152e;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.home-chef {
+    width: 100%;
+    height: auto;
+    padding-bottom: 200px;
+    background-color: #f8f9f0;
+    background-image: url(https://ld-wp73.template-help.com/wordpress/prod_23279/v3/wp-content/uploads/2019/04/home-6.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.chef-info {
+    padding: 8% 0 0 10%;
+}
+.chef-info h2 {
+    text-align: left;
+    color: #e6be99;
+    font-family: "Satisfy", Sans-serif;
+    font-size: 1.8rem;
+}
+.chef-info h5 {
+    padding: 20px 0;
+    color: #2b2f3e;
+    font-family: "Roboto", Sans-serif;
+    font-size: 1.6rem;
+}
+.chef-info p {
+    color: #949494;
+    font-family: "Roboto", Sans-serif;
+    font-size: 1rem;
+    width: 60%;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.chef-info span {
+    color: #949494;
+    font-family: "Satisfy", Sans-serif;
+    font-size: 2rem;
+}
+.home-gallery {
+    padding: 80px 0;
+    width: 100%;
+    height: auto;
+    background-color: #f8f9f0;
+    background-image: url(https://ld-wp73.template-help.com/wordpress/prod_23279/v3/wp-content/uploads/2019/04/home-7.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gallery-container {
+    text-align: center;
+    font-family: "Roboto", Sans-serif;
+    width: 60%;
+    margin: 0 auto;
+    height: auto;
+}
+.gallery-container h2{
+    color: #e6be99;
+    font-family: "Satisfy", Sans-serif;
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 1.2em;
+}
+.gallery-container h3{
+    color: #ffffff;
+    font-size: 29px;
+    line-height: 1.3em;
+    font-weight: 300;
+    letter-spacing: 0px;
+}
+.gallery-container p{
+    padding-top: 10px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.70em;
+}
+.gallery-container button{
+    cursor: pointer;
+    margin-top: 40px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 12px 24px;
+    border-radius: 3px;
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    transition: all .3s;
+    border-color: #D53247;
+}
+.gallery-container button:hover {
+    background-color: #D53247;
+}
+.opinion {
+    padding: 40px 0;
+    width: 100%;
+    height: auto;
+    background-color: #f8f9f2;
+}
+.opinion-container {
+    font-family: "Roboto", Sans-serif;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.opinion-content {
+    padding-right: 20px;
+}
+.opinion-content h2 {
+    text-align: left;
+    font-size: 29px;
+    padding-bottom: 10px;
+    font-weight: 300;
+    line-height: 1.3em;
+}
+.opinion-content p {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.75em;
+}
+.opinion-subscrice {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.subscrice-input {
+    border-radius: 4px;
+    width: 70%;
+    padding: 15px 0 15px 15px;
+    margin-right: 20px;
+    color: #fff;
+    background-color: #2f2929;
+    font-size: 15px;
+    border: 1px solid rgba(255,255,255,0);
+    outline: none;
+}
+.subscrice-input::placeholder{
+    color: rgb(207, 188, 188);
+    font-weight: 300;
+}
+.subscrice-btn {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 15px;
+    color: #fff;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    line-height: 1.6;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #ec495e;
+}
+.opinion-subscrice button:hover {
+    background-color: #cc263c;
+}
+.message-error {
+    position: absolute;
+    top: 60px;
+    left: 22px;
+    color: #cc263c;
+}
+.border-error {
+    border-width: 2px !important;
+    border-color: #cc263c !important;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1365px) {
+    .subscrice-input {
+        margin-right: 0;
+        width: 100%;
+    }
+    .subscrice-btn{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .message-error {
+        position: relative;
+        margin-top: 20px;
+        top: 0;
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .chef-info h5 {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .home-inner {
+        height: 790px;
+    }
+    .home-inner-content {
+        top: 40%;
+    }
+    .home-inner-content h1,h2 {
+        line-height: 1.2;
+    }
+    .home-inner-content h1 {
+        font-size: 2.9rem;
+    }
+    .home-inner-content h2 {
+        font-size:1.5rem;
+    }
+    .home-inner-content p {
+        padding: 14px 0;
+        font-size: 1.2rem;
+    }
+    .slide-container {
+        grid-template-rows: 500px;
+    }
+    .home-about-content-item {
+        width: 100%;
+    }
+    .home-gallery {
+        padding-top: 50px;
+    }
+    .home-gallery-container {
+        width: 90%;
+    }
+    .gallery-container h3 {
+      padding: 20px 0;
+    }
+}
+
+@media screen and (max-width: 476px) {
+    .home-about-content {
+        width: 90vw;
+        justify-content: center;
+    }
+    .home-about-content-item h2 {
+        font-size: 1.1rem;
+    }
+    .home-chef {
+        margin-top: -50px;
+    }
+    .opinion-subscrice input {
+        margin-top: 40px;
+    }
+    .opinion-content {
+        padding: 0;
+    }
+}
+  

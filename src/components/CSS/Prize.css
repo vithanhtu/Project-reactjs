@@ -1,0 +1,31 @@
+.prize {
+    width: 100%;
+}
+.prize-wrap {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    height: auto;
+    margin: 20px auto;
+}
+.prize-item {
+    margin: 40px 0;
+    text-align: center;
+}
+.prize-item img{
+    object-fit: contain;
+}
+.prize-item p{
+    font-size: 1.2rem;
+    color: #333;
+    padding: 15px 0;
+}
+.prize-item span{
+    font-size: 1.4rem;
+    padding: 0 4px;
+}
+.prize-item-star  {
+    border-radius: 10px;
+    background-color: #f3d472;
+    color: #000;
+}

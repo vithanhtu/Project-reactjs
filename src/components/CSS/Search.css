@@ -1,0 +1,30 @@
+.search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-input {
+    position: relative;
+    left: 2px;
+    padding: 5px 90px 5px 6px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #c59d5f;
+}
+.search-box span {
+    position: relative;
+    left: 10px;
+    display: flex;
+    color: #c59d5f;
+    font-size: 1.6rem;
+}
+
+
+
+@media screen and (max-width: 320px) {
+    .search-input {
+        padding: 5px 60px 5px 6px;
+    }
+}
+ 
+ 
